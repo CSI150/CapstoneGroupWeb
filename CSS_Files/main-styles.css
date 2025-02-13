@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+}
+
+.Nav_bar{
+    background: linear-gradient( rgb(48,183,238) 0%,rgb(106, 166, 245) 100%);
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 0;
+    z-index: 8;
+}
+
+.Nav_Container{
+    display:flex;
+    justify-content: center;
+    height: 80px;
+    z-index: 4;
+    width:100%;
+    max-width: 1300000px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.Nav_bar_items{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 80px;
+    z-index: 8;
+    margin: 0 auto;
+    padding: 50px 0;
+    list-style: none;
+}
+
+.Nav_li{
+    text-decoration: none;
+    color: black;
+}
+
+.Tittle {
+    background: rgba(0, 45, 100);
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    text-align: center;
+    z-index: 0;
+}
+
+.Tittle h1 {
+    margin: 0;
+    background-image: linear-gradient(rgb(15, 158, 234) 0%, rgb(90, 182, 232) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 75px;
+}
+
+.section_item{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0 0 30px 10px rgba(0, 0, 0, 0.3);
+}
+
+.section_item h1{
+    margin-bottom: 50px;
+}
+
+#Group{
+    background: #a2e5ff;
+}
+
+#Group h1{
+    color: rgb(0, 83, 146);
+}
+
+#Meetings{
+    background: rgba(1,108,188);
+}
+
+#Meetings h1{
+    color:rgb(129, 216, 248);
+}
+
+#Schedule{
+    background: rgba(15,158,234);
+}
+
+#Schedule h1{
+    color: rgb(178,237,255);
+}
+
+#Files{
+    background: rgb(138, 226, 255);
+}
+
+#Files h1{
+    color: rgb(0,45,100);
+}
+
+.section_item h1{
+    font-size: 50px;
+}
+
+.Item{
+    display: flex;
+    text-align: center;
+    margin: 20px;
+}
+
+.Item h4{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.Item h5,
+.Item p{
+    display: flex;
+    align-items: center;
+}
+
+#Group_Member h4{
+    color: rgb(1,108,188);
+}
+
+#Meeting_Item h4{
+    color:rgb(106,210,245);
+}
+
+#Meeting_Item p{
+    color: white
+}
+
+#Upcoming_item h4{
+    color:rgb(0,45,100);
+}
+
+#Upcoming_item h5{
+    color:rgb(0, 91, 161);
+    font-size: 20px;
+}
