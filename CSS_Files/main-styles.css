@@ -71,7 +71,7 @@ html {
 }
 
 .Tittle h2 {
-    margin: 0;
+    margin-top: 10;
     background-image: linear-gradient(rgb(90, 182, 232) 0%, rgb(15, 158, 234) 100%);
     -webkit-background-clip: text;
     background-clip: text;
