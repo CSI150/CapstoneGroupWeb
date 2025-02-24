@@ -70,9 +70,9 @@ html {
     font-size: 75px;
 }
 
-.Tittle h1 {
+.Tittle h2 {
     margin: 0;
-    background-image: linear-gradient(rgb(15, 158, 234) 0%, rgb(90, 182, 232) 100%);
+    background-image: linear-gradient(rgb(90, 182, 232) 0%, rgb(15, 158, 234) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
