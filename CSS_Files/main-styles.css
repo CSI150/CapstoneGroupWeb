@@ -130,10 +130,6 @@ html {
     color: rgb(0,45,100);
 }
 
-#File_item a{
-    text-decoration: none;
-    color(0,0,0);
-}
 
 .Item{
     display: flex;
