@@ -126,8 +126,13 @@ html {
     color: rgb(0,45,100);
 }
 
-.section_item h1{
-    font-size: 50px;
+#Files h1{
+    color: rgb(0,45,100);
+}
+
+.section_item a{
+    text-decoration: none;
+    color(0,0,0);
 }
 
 .Item{
