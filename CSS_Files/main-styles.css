@@ -161,10 +161,6 @@ html {
 }
 
 #User_item h4{
-    color:rgb(0,45,100);
-}
-
-#User_item h5{
     color:rgb(0, 91, 161);
     font-size: 20px;
 }
