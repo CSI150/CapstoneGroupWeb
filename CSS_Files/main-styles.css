@@ -114,7 +114,6 @@ html {
     background-color: #00aaff;
     text-align: center;
     padding: 80px 20px; /* Increased vertical space */
-    height: 1200px; /* Ensures the section has enough height */
     box-sizing: border-box;
 }
 
