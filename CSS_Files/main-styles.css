@@ -112,6 +112,9 @@ html {
 
 #Results{
     background: rgba(15,158,234);
+    display: inline-block;       /* Shrink-wraps to content width */
+    width: auto;                 /* Allows dynamic width */
+    padding: 1rem;               /* Optional: adds breathing room */
 }
 
 #Results h1{
