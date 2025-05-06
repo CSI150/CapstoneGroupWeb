@@ -184,7 +184,7 @@ html {
 }
 
 .result_stat {
-    max-width: 45%; /* Scales image width down for better layout */
+    max-width: 20%; /* Scales image width down for better layout */
     height: auto;
     border-radius: 12px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
