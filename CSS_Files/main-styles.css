@@ -114,7 +114,7 @@ html {
     background: rgba(15,158,234);
     display: inline-block;       /* Shrink-wraps to content width */
     height: auto;                 /* Allows dynamic width */
-    padding: 1rem;               /* Optional: adds breathing room */
+    padding: 3rem;               /* Optional: adds breathing room */
 }
 
 #Results h1{
